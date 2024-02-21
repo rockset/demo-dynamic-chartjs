@@ -71,7 +71,7 @@
 					labels: results.map((res) => res.label),
 					datasets: [
 						{
-							label: 'Tweet Count',
+							label: 'Value',
 							data: results.map((res) => res.value)
 						}
 					]
